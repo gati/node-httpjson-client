@@ -1,3 +1,4 @@
+=======
 Node HTTP/JSON Client
 =============
 
@@ -37,3 +38,4 @@ For example
 Added bonus is that, as your "myserver.com" service evolves, you can change 
 whatever you want as long as you honor the interface defined in your MyServer
 package. Woot.
+
