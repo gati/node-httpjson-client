@@ -28,7 +28,10 @@ For example
     MyServerClient = require("myserver-client");
 
     myServerClient = new MyServerClient();
-    myServerClient.get(1, function(user) { console.log(user); });
+    myServerClient.getUser(1, function(user) { console.log(user); });
+
+Now consumers of your service don't need to care how you get the user, just that, 
+when they provide an id, you return some JSON to their callback. Sweet.
 
 Added bonus is that, as your "myserver.com" service evolves, you can change 
 whatever you want as long as you honor the interface defined in your MyServer
