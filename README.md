@@ -2,12 +2,7 @@
 Node HTTP/JSON Client
 =============
 
-In developing Service Oriented Architectures, I find that it's helpful to create 
-clients for HTTP services so developers writing applications that consume the 
-the service can skip learning the details and use a simplified interface. This 
-client of "layered architecture" is a handy way to ensure code reuse across 
-system components and reduce complexity (which, in SOAs, is even more important 
-than normal). 
+In developing Service Oriented Architectures, it’s helpful to create clients for HTTP services so developers writing applications that consume the the service can skip learning all the gory details of how the service works and instead use a simplified interface. This kid of “layered architecture” is a handy way to ensure code reuse across system components and reduce complexity (which, in SOAs, can bite you if you’re not careful).
 
 On my projects we almost always use JSON as the data format, so to save everyone some 
 time I wrote this thin wrapper around the venerable [request](https://github.com/mikeal/request) 
