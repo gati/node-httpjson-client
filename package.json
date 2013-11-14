@@ -1,0 +1,14 @@
+{
+  "name": "node-httpjson-client",
+  "version": "0.1.0",
+  "author": {
+    "name": "Jonathon Morgan",
+    "email": "jonathon@goodattheinternet.com"
+  },
+  "description": "Simple HTTP client for REST services communicating in JSON using Node.js",
+  "main": "./index",
+  "dependencies": {
+    "underscore": "1.5.1",
+    "request": "2.25.0"
+  }
+}
